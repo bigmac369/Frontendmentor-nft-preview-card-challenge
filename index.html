@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | NFT preview card component</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  </head>
-  <body>
-    <div class="card">
-      <div class="line">
-        <div>
-        <img src="images/image-equilibrium.jpg" alt="headerpic" />
-        <h2>Equilibrium #3429</h2>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-      </div>
-      </div>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=XIURFwZi7cEbE_A2irLgCZWiNKC42Js1ePHPrhdQUsmXEdPkmVQ0CSLorhS5g5mrPpad0kAUjhXLp6kZX2ATrBXaYVk9zUKEUQNFKKrugUgHa90V9lu1Tf4rg_Wr0FpBWQDYN8j8B2eHjox4YMXNfrjjjrLbm7pV59gUiqcvGU92H58q_AnavJAvwVkIsupfozYIsDasYXabUYzHAVm_ykzRB37scvxK9ri0dDFpXvZRSBZMzKJlyLDtftPhW-AxNCeGxoUuenGxakRBtQj5DAdTDMLl_5Ci2N8Kn6mUyjZMWztroETvDtiphb1QKnPrf1drTHSmU03xJlRE_k_aaw" charset="UTF-8"></script></head>
+
+<body>
+  <div class="container">
+
+    <div class="hero">
+      <img class="hoverEffect" src="images/image-equilibrium.jpg" alt="">
+      <div class="image-overlay"></div>
     </div>
-  </body>
+
+    <div class="text-content">
+      <h2 class="title hoverEffect">
+        Equilibrium #3429
+      </h2>
+
+      <p class="subtitle">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <div class="plan-box">
+
+        <div class="plan-box-left">
+          <img src="images/icon-ethereum.svg" alt="">
+          <p>0.041 ETH</p>
+        </div>
+
+        <div class="plan-box-right">
+          <img src="images/icon-clock.svg" alt="">
+          <p>3 days left</p>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <img src="images/image-avatar.png" alt="">
+        <h4>Creation of</h4><a class="hoverEffect" href="#">Jules Wyvern</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
 </html>
